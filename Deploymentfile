@@ -15,3 +15,5 @@ $ gcloud projects add-iam-policy-binding $GKE_PROJECT \
 $ gcloud projects add-iam-policy-binding $GKE_PROJECT \
 	--member=serviceAccount:$SA_sowmyachowdary610@gmail.com \
 	--role=roles/container.clusterViewer
+$ gcloud iam service-accounts keys create key.json --iam-account=$SA_sowmyachowdary610@gmail.com
+
