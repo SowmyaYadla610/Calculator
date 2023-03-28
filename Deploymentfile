@@ -1,3 +1,6 @@
 $ gcloud container clusters create $GKE_CLUSTER \
 	--project=$DEMO_GKE_PROJECT \
 	--zone=$WEST_US_ZONE
+$ gcloud services enable \
+	containerregistry.googleapis.com \
+	container.googleapis.com
